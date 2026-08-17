@@ -4,6 +4,7 @@
 - 本地开发用 venv
 - 部署时由 veFaaS 平台基于 `requirements.txt` 安装依赖
 - push 到 `preprod` 分支会触发部署流水线
+- 分支说明：`main` 开发主干，`preprod` 预发环境，`prod` 生产环境
 
 ## 运行环境
 - veFaaS（Linux/Debian，Python 3.12）
